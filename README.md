@@ -2,6 +2,36 @@
 
 A modern, high-performance personal portfolio built with **React 18**, **Tailwind CSS**, and **Vite**.
 
+## 📁 Project Structure
+
+```
+portfolio/
+├── index.html
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+├── postcss.config.js
+└── src/
+    ├── main.jsx          ← Entry point
+    ├── App.jsx           ← Root component
+    ├── index.css         ← Global styles + Tailwind
+    ├── assets/
+    │   └── photo.js      ← Your photo (base64 embedded)
+    ├── hooks/
+    │   └── useReveal.js  ← Scroll reveal hook
+    └── components/
+        ├── Cursor.jsx        ← Custom cursor + ring
+        ├── ScrollProgress.jsx← Top progress bar
+        ├── FloatingCode.jsx  ← Floating code symbols
+        ├── Navbar.jsx        ← Fixed navigation
+        ├── Terminal.jsx      ← Typing terminal animation
+        ├── Hero.jsx          ← Hero section
+        ├── About.jsx         ← About + skill bars
+        ├── Projects.jsx      ← Project cards grid
+        ├── Contact.jsx       ← Contact form
+        ├── Footer.jsx        ← Footer
+        └── Divider.jsx       ← Section divider
+
 ## ✨ Features
 
 - Animated hero section with live typing terminal & orbital rings
