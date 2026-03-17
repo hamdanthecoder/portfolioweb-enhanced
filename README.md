@@ -1,8 +1,3 @@
-# xbrocoder Portfolio — React + Tailwind
-
-## 📁 Project Structure
-
-```
 portfolio/
 ├── index.html
 ├── package.json
@@ -29,38 +24,50 @@ portfolio/
         ├── Contact.jsx       ← Contact form
         ├── Footer.jsx        ← Footer
         └── Divider.jsx       ← Section divider
-```
 
-## 🚀 Getting Started
+## ✨ Features
 
-```bash
-# 1. Install dependencies
-npm install
-
-# 2. Start dev server
-npm run dev
-
-# 3. Build for production
-npm run build
-```
-
-## 🎨 Customisation
-
-| Thing            | Where to edit                        |
-|------------------|--------------------------------------|
-| Your photo       | `src/assets/photo.js`                |
-| Nav links        | `src/components/Navbar.jsx`          |
-| Hero text        | `src/components/Hero.jsx`            |
-| Terminal lines   | `src/components/Terminal.jsx`        |
-| About bio        | `src/components/About.jsx`           |
-| Skill bars       | `src/components/About.jsx` → SKILLS  |
-| Projects list    | `src/components/Projects.jsx` → PROJECTS |
-| Social links     | `src/components/Contact.jsx` → SOCIALS   |
-| Colors / fonts   | `tailwind.config.js`                 |
-| Global CSS       | `src/index.css`                      |
+- Animated hero section with live typing terminal & orbital rings
+- Smooth scroll powered by Lenis
+- Floating code symbols background animation
+- Scroll-triggered reveal animations
+- Animated skill progress bars
+- Project showcase with 5 live projects
+- Working contact form via EmailJS
+- Responsive hamburger menu for mobile
+- Custom cursor with trailing ring
+- Glitch effect on logo hover
+- Scroll progress indicator
 
 ## 🛠 Tech Stack
 
-- **React 18** — component-based UI
-- **Tailwind CSS 3** — utility-first styling
-- **Vite** — lightning-fast dev server & build tool
+`React 18` `Tailwind CSS` `Vite` `Lenis` `EmailJS` `JavaScript`
+
+## 🚀 Projects Showcased
+
+| Project | Tech |
+|---|---|
+| The Shoe Company | HTML, CSS, JavaScript |
+| Tic Tac Toe Game | JavaScript, DOM |
+| Countries API Explorer | React, REST API, Tailwind |
+| Interior Guru Designer | HTML, CSS, Animations |
+| Valentine Greetings | HTML, CSS Animations, JavaScript |
+
+## 📦 Run Locally
+```bash
+npm install
+npm run dev
+
+## 🌐 Live
+
+[xbrocoder.netlify.app](https://hamdancoder.in/)
+
+---
+Built with ❤️ by [Shah Hamdan](https://github.com/xbroindia)
+```
+
+---
+
+**GitHub Topics** (add these tags to your repo for discoverability):
+```
+portfolio  react  tailwindcss  vite  frontend  javascript  web-development  personal-website  responsive-design
