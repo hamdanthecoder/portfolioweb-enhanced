@@ -6,7 +6,7 @@ const PROJECTS = [
     title:  'The Shoe Company',
     desc:   'A sleek ecommerce-style landing page showcasing a premium shoe brand with smooth UI and modern design.',
     tags:   ['HTML', 'CSS', 'JavaScript'],
-    url:    'https://shoe-comp.netlify.app/',
+    url:    'https://shoe-website-3d.netlify.app/',
   },
   {
     num:    '02',
