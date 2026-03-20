@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-scroll'
 
-const NAV_ITEMS = ['home', 'about', 'projects', 'contact']
+const NAV_ITEMS = ['home', 'about', 'services', 'projects', 'contact']
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)

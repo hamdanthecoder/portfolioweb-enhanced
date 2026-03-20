@@ -3,9 +3,9 @@ import useReveal from '../hooks/useReveal'
 const PROJECTS = [
   {
     num:    '01',
-    title:  'The Shoe Company',
+    title:  'THE SHOE COMPANY — Premium 3D Website',
     desc:   'A sleek ecommerce-style landing page showcasing a premium shoe brand with smooth UI and modern design.',
-    tags:   ['HTML', 'CSS', 'JavaScript'],
+    tags:   ['HTML', 'CSS', 'JavaScript','React','Tailwind'],
     url:    'https://shoe-website-3d.netlify.app/',
   },
   {
@@ -20,7 +20,7 @@ const PROJECTS = [
     title:  'Countries API Explorer',
     desc:   'A React app that fetches and displays country data from REST Countries API with search and filter.',
     tags:   ['React', 'REST API', 'Tailwind'],
-    url:    'https://countrie-api-react.netlify.app/',
+    url:    'https://atlas-country-explorer.netlify.app/',
   },
   {
     num:    '04',
@@ -34,7 +34,7 @@ const PROJECTS = [
     title:  'Valentine Greetings',
     desc:   'A fun and animated Valentine\'s Day greeting web app with interactive elements and warm design.',
     tags:   ['HTML', 'CSS Animations', 'JavaScript'],
-    url:    'https://valentine-greetings-web.netlify.app/',
+    url:    'https://valentinecardday.netlify.app/',
   },
 ]
 

@@ -4,6 +4,7 @@ import FloatingCode   from './components/FloatingCode'
 import Navbar         from './components/Navbar'
 import Hero           from './components/Hero'
 import About          from './components/About'
+import Services       from './components/Services'
 import Projects       from './components/Projects'
 import Contact        from './components/Contact'
 import Footer         from './components/Footer'
@@ -14,16 +15,12 @@ import { useEffect }  from 'react'
 export default function App() {
   useEffect(() => {
     const lenis = new Lenis({ duration: 1.2 })
-
-    // Store rafId so we can cancel it on cleanup.
-    // Without this the RAF loop kept running after unmount causing jank.
     let rafId
     function raf(time) {
       lenis.raf(time)
       rafId = requestAnimationFrame(raf)
     }
     rafId = requestAnimationFrame(raf)
-
     return () => {
       cancelAnimationFrame(rafId)
       lenis.destroy()
@@ -40,6 +37,8 @@ export default function App() {
         <Hero />
         <Divider />
         <About />
+        <Divider />
+        <Services />
         <Divider />
         <Projects />
         <Divider />
